@@ -1,0 +1,19 @@
+CACHE MANIFEST
+CACHE:
+/img/icon/*
+#index.html
+#/css/main.css
+#/js/main.js
+https://code.jquery.com/jquery-2.2.4.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css
+https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js
+# Resources that require the user to be online.
+NETWORK:
+#*
+# static.html will be served if main.py is inaccessible -> /main.py /static.html
+# offline.jpg will be served in place of all images in images/large/ -> images/large/ images/offline.jpg
+FALLBACK:
+#/main.py /static.html
+#-> images/large/ images/offline.jpg

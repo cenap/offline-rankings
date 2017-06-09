@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr" manifest="cache.manifest">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prenseslik Puanları</title>
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/icon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="img/icon/communicator-blue-152-77335.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/icon/communicator-blue-152-77335.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/icon/communicator-blue-144-77335.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/icon/communicator-blue-120-77335.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon/communicator-blue-114-77335.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon/communicator-blue-72-77335.png">
+  <link rel="apple-touch-icon-precomposed" href="img/icon/communicator-blue-57-77335.png">
+  <link rel="icon" href="img/icon/communicator-blue-32-77335.png" sizes="32x32">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="main-container" class="container-fluid">
+    <div class="row">
+      <div id="sol" class="col-sm-6 text-center">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <a href="#" id="h0" class="editable" data-type="text" data-pk="1" data-title="Değiştir"></a>
+          </div>
+          <div class="panel-body">
+
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant0">
+                  <span class="glyphicon glyphicon-minus"></span>
+                </button>
+              </span>
+              <input type="text" name="quant0" class="form-control input-number" value="10" min="1" max="100">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant0">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="sag" class="col-sm-6 text-center">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <a href="#" id="h1" class="editable" data-type="text" data-pk="2" data-title="Değiştir"></a>
+          </div>
+          <div class="panel-body">
+
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant1">
+                  <span class="glyphicon glyphicon-minus"></span>
+                </button>
+              </span>
+              <input type="text" name="quant1" class="form-control input-number" value="10" min="1" max="100">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant1">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

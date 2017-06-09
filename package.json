@@ -1,0 +1,11 @@
+{
+  "name": "prensesler",
+  "version": "1.0.0",
+  "description": "Prenseslik puanı kaydedicisi",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Salih Cenap Baydar",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+body {}
+
+.panel-heading {
+  font-size: 3.0em;
+  font-weight: bold;
+}
+
+input.form-control.input-number {
+  text-align: center;
+  font-size: 4.0em;
+  font-weight: bold;
+  padding: 0.528em 0;
+}
+
+button .glyphicon {
+  height: 1.0em;
+  font-size: 3.0em;
+}

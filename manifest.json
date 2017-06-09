@@ -1,0 +1,24 @@
+{
+  "lang": "tr",
+  "dir": "ltr",
+  "name": "Sayaç",
+  "description": "İstediğiniz bir şeylerin sayısını tutun.",
+  "short_name": "Sayaç",
+  "icons": [{
+    "src": "img/icon/communicator-blue-32-77335.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },{
+    "src": "img/icon/communicator-blue-64-77335.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }, {
+    "src": "img/icon/communicator-blue-144-77335.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "aliceblue",
+  "background_color": "red"
+}
