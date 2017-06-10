@@ -20,5 +20,5 @@
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "aliceblue",
-  "background_color": "red"
+  "background_color": "aliceblue"
 }

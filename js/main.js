@@ -8,6 +8,7 @@ $(function() {
     display : 'value',
     emptytext : 'Başlık',
     mode : 'inline',
+    showbuttons : false,
     defaultValue : '',
     success: function(response, newValue) {
       $(this).text(newValue);

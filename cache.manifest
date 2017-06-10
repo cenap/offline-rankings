@@ -1,7 +1,7 @@
 CACHE MANIFEST
 CACHE:
 /img/icon/*
-#index.html
+#/index.html
 #/css/main.css
 #/js/main.js
 https://code.jquery.com/jquery-2.2.4.min.js
